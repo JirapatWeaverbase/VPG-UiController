@@ -1,0 +1,37 @@
+.root {
+  width: 257px;
+  height: 242px;
+  place-content: center;
+  align-items: center;
+  padding: 32px;
+  border-radius: 10px;
+  background-color: #939191;
+  overflow: hidden;
+}
+
+.bt_active {
+  background-color: green;
+}
+
+.bt_un_active {
+  background-color: rgb(150, 150, 150);
+}
+
+
+.frame2 {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 5px 0 0 5px;
+}
+.unnamed {
+  color: #fff;
+  font-size: 205px;
+  font-weight: bold;
+  font-family: Mplus 1p Bold, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}

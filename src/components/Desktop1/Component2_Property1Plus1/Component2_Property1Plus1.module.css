@@ -1,0 +1,30 @@
+.root {
+  position: relative;
+  width: 53px;
+  height: 53px;
+  align-items: flex-start;
+}
+.ellipse8 {
+  position: absolute;
+  left: 9px;
+  top: 9px;
+  width: 35px;
+  height: 35px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.union {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  width: 24px;
+  height: 24px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}

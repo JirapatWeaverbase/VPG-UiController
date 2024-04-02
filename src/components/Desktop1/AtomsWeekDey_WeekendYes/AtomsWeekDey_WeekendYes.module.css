@@ -1,0 +1,19 @@
+.root {
+  width: 24px;
+  height: 24px;
+  place-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.text {
+  color: #17a1fa;
+  font-size: 11px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}

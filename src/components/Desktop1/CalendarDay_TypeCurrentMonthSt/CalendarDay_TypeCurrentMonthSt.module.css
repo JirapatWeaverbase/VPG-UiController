@@ -1,0 +1,27 @@
+.root {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  width: 41px;
+  height: 32px;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.day {
+  color: #0a1811;
+  font-size: 14px;
+  line-height: 120%;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 41px;
+  height: 32px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+}
